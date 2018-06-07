@@ -8,7 +8,7 @@ const assert = require('assert');
 const url = 'mongodb://104.236.23.173:27017';
 
 // Database Name
-const dbName = 'admin';
+const dbName = 'test';
 
 app.get('/', (req, res) => {
   res.send('Hey, I\'m a Node.js app!')
